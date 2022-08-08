@@ -9,6 +9,10 @@
 body{
     background-image: url(./image/background_image.jpg); 
     color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 #container{
@@ -37,6 +41,10 @@ span{
     text-align: center;
 }
 
+textarea{
+    resize: none;
+}
+
 #survey-form-container{
     width: 500px;
     background-color: rgba(0, 0, 0,0.8);
@@ -48,12 +56,19 @@ span{
 #age,
 #email, 
 #type, 
+#type
 #feedback{
     width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
 }
 
 .input-box{
     margin-top: 10px;
+}
+
+#checkbox, #radio{
+    margin-top: 40px;
 }
 
 #form-button{
@@ -76,6 +91,15 @@ span{
     background-color: white;
     color: #ff0000;
 }
+
+@font-face {
+    font-family: constella;
+    src: url(./fonts/constella.ttf);
+}
+
+
+
+
 
 
 
